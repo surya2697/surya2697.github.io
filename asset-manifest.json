@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.474652ee.css",
-    "main.js": "/static/js/main.59587f01.js",
+    "main.js": "/static/js/main.f1d0875c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Kimaye.com.png": "/static/media/Kimaye.com.9d9d2be2276ee201f891.png",
     "static/media/industrybuying.png": "/static/media/industrybuying.2d47d0c958617eec4ed2.png",
@@ -14,11 +14,11 @@
     "static/media/S.png": "/static/media/S.a1f8fe1be47c01262d13.png",
     "index.html": "/index.html",
     "main.474652ee.css.map": "/static/css/main.474652ee.css.map",
-    "main.59587f01.js.map": "/static/js/main.59587f01.js.map",
+    "main.f1d0875c.js.map": "/static/js/main.f1d0875c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.474652ee.css",
-    "static/js/main.59587f01.js"
+    "static/js/main.f1d0875c.js"
   ]
 }
