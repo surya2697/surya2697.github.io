@@ -7,12 +7,12 @@ const data = [
     title: "QUICK CART",
     desc: "Quick Cart is a clone of tatacliq E-commerce website,Where you can buy clothes,electronics,accessiories and many more.",
     techStack:
-      "ReactJS | ChakraUI | NPM Packages| React-Redux | ",
+      "HTML | CSS | JS | ReactJS | ChakraUI | NPM Packages | Redux | React-Router-dom  ",
     feature:
-      "Sign In, Sign Up,Home Page,Search Functionality, filtering ,Sorting, Products & Single product pages,cart page, Responsive for all devices",
-    img: "Quick cart.png",
-    clone: "https://github.com/surya2697/grieving-caption-9781/tree/master/quick%20cart",
-    deploy: "https://surya2697.github.io/",
+      "Sign In, Sign Up, Search Functionality,Filtering , Sorting & Single Page Website, Responsive for all devices",
+    img: 'Quick cart.png',
+    clone: "https://github.com/surya2697/grieving-caption-9781",
+    deploy: "https://gilded-churros-f3dbe4.netlify.app/",
   },
   {
     title: "EXPEDIA",
@@ -54,7 +54,7 @@ const data = [
       "Signup,Login,Pick any mail plans,checkout page,account setting",
     img: "mailchimp.png",
     clone: "https://github.com/sanket-potdar563/JS-201-Project",
-    deploy: "storied-conkies-af82f4.netlify.app/",
+    deploy: "https://storied-conkies-af82f4.netlify.app/",
   },
 ];
 

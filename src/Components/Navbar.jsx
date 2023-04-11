@@ -37,7 +37,7 @@ const links = [
     page: "Contact",
   },
 ];
-export function Navbar() {
+export function Navbar({sidebar}) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { colorMode, toggleColorMode } = useColorMode();
   const NavBgColor = useColorModeValue("gray.50", "gray.900");
@@ -49,7 +49,9 @@ export function Navbar() {
 
   //   }
   // }
-
+    function handleClick(){
+            window.open("https://drive.google.com/file/d/1uldTQI827dCYN9OzsM_01hEyMw0tO1OH/view?usp=share_link","_blank")
+    }
   return (
     <>
       <Box
@@ -82,6 +84,7 @@ export function Navbar() {
                   to={el.to}
                   offset={-70}
                   duration={500}
+  
                 >
                   {el.page}
                 </Link>
@@ -89,23 +92,15 @@ export function Navbar() {
               <Button
                 width={["80px", "80px", "120px"]}
                 fontSize={["12px", "12px", "18px"]}
-                download="Surya_Ahire_Resume"
-                href={download}
-                onClick={() => {
-                  return window.open(
-                    "https://drive.google.com/file/d/1T_ocjvEAxARtQIEwbYEs4TIvzEmFZ3H1/view?usp=share_link",
-                    "_blank"
-                  );
-                }}
-              >
-                Resume 
+                onClick={handleClick}
+              ><a href={download} download="fp05_147-Surya-Ahire-Resume"> Resume</a>
+               
                 &nbsp;
                 {/* <span><BiShowAlt/></span> */}
               </Button>
               <Button
                 borderRadius={"50%"}
-                download="Surya_Ahire_Resume"
-                href={download}
+               
                 width="42px"
                 onClick={toggleColorMode}
               >

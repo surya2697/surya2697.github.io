@@ -28,6 +28,7 @@ const links = [
     to: "contact",
     page: "Contact",
   },
+ 
 ];
 
 export function NavDrawer({isOpen,onOpen,onClose}) {
@@ -61,7 +62,9 @@ export function NavDrawer({isOpen,onOpen,onClose}) {
                  spy={true}
                  smooth={true}
                  offset={-70}
+                
                  duration={500}
+                 onClick={onClose}
                >
                  {el.page}
                </Link>

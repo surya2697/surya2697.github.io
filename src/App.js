@@ -14,7 +14,7 @@ function App() {
   const { colorMode } = useColorMode();
 
   return (
-    <div className="App">
+    <div className="App" >
       <Box bgColor={BodyBgColor}>
         <Navbar />
         <Box id="home">
