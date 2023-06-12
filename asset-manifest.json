@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.474652ee.css",
-    "main.js": "/static/js/main.f1d0875c.js",
+    "main.css": "/static/css/main.20cf952e.css",
+    "main.js": "/static/js/main.ea60680d.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Kimaye.com.png": "/static/media/Kimaye.com.9d9d2be2276ee201f891.png",
     "static/media/industrybuying.png": "/static/media/industrybuying.2d47d0c958617eec4ed2.png",
@@ -9,16 +9,15 @@
     "static/media/Quick cart.png": "/static/media/Quick cart.043582a5161911489880.png",
     "static/media/profile.png": "/static/media/profile.5c302edf061aabb83728.png",
     "static/media/mailchimp.png": "/static/media/mailchimp.5f2589578156648eb182.png",
+    "static/media/Surya_Ahire_Resume.pdf": "/static/media/Surya_Ahire_Resume.dfdd122070919d005a4a.pdf",
     "static/media/Surya-Ahire-Resume.pdf": "/static/media/Surya-Ahire-Resume.cb8001dff6c6e4e85cb2.pdf",
-    "static/media/Surya_Ahire_Resume.pdf": "/static/media/Surya_Ahire_Resume.cb8001dff6c6e4e85cb2.pdf",
-    "static/media/S.png": "/static/media/S.a1f8fe1be47c01262d13.png",
     "index.html": "/index.html",
-    "main.474652ee.css.map": "/static/css/main.474652ee.css.map",
-    "main.f1d0875c.js.map": "/static/js/main.f1d0875c.js.map",
+    "main.20cf952e.css.map": "/static/css/main.20cf952e.css.map",
+    "main.ea60680d.js.map": "/static/js/main.ea60680d.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.474652ee.css",
-    "static/js/main.f1d0875c.js"
+    "static/css/main.20cf952e.css",
+    "static/js/main.ea60680d.js"
   ]
 }
