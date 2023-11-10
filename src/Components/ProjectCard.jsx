@@ -41,7 +41,7 @@ export function ProjectCard({ data }) {
           </Text>
           <HStack gap={"30px"}>
             <Button onClick={() => window.open(data.clone, "_blank")}>
-              Github Clone
+              Github
             </Button>
             <Button onClick={() => window.open(data.deploy, "_blank")}>
               Visit Site

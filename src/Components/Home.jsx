@@ -14,7 +14,7 @@ import { Title } from "./Title";
 import download from './download/Surya_Ahire_Resume.pdf'
 export function Home() {
   function handleClick(){
-    window.open('https://drive.google.com/file/d/1uldTQI827dCYN9OzsM_01hEyMw0tO1OH/view?usp=share_link','_blank')
+    window.open('https://drive.google.com/file/d/14peSTf_tL9pbklBrpUBLNj0YDxfKQ8kT/view?usp=sharing','_blank')
    
   }
   

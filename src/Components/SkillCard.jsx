@@ -8,11 +8,13 @@ import {
   SiReact,
   SiRedux,
   SiPostman,
-  SiGit,
+  SiGithub,
   SiNetlify,
   SiNodedotjs,
   SiMongodb,
   SiExpress,
+  SiBootstrap,
+  SiTailwindcss
 } from "react-icons/si";
 
 const SkillCard = () => {
@@ -186,8 +188,8 @@ const SkillCard = () => {
           className="dev"
           data-aos="zoom-in-up"
         >
-             <VStack alignItems={"center"}><SiGit className="dev" fontSize="4rem" />
-          <Text mt="15px">Git</Text></VStack>
+             <VStack alignItems={"center"}><SiGithub className="dev" fontSize="4rem" />
+          <Text mt="15px">GitHub</Text></VStack>
           
         </Box>
         <Box
@@ -226,6 +228,34 @@ const SkillCard = () => {
         >
              <VStack alignItems={"center"}><SiNetlify className="dev" fontSize="4rem" />
           <Text mt="15px">Netlify</Text></VStack>
+          
+        </Box>
+        <Box
+          _hover={{ color: "#DE4C36" }}
+          boxShadow="base"
+          p="6"
+          rounded="md"
+          bg={bgColor}
+          border={bc}
+          className="dev"
+          data-aos="zoom-in-up"
+        >
+             <VStack alignItems={"center"}><SiBootstrap className="dev" fontSize="4rem" />
+          <Text mt="15px">Bootstrap</Text></VStack>
+          
+        </Box>
+        <Box
+          _hover={{ color: "#DE4C36" }}
+          boxShadow="base"
+          p="6"
+          rounded="md"
+          bg={bgColor}
+          border={bc}
+          className="dev"
+          data-aos="zoom-in-up"
+        >
+             <VStack alignItems={"center"}><SiTailwindcss className="dev" fontSize="4rem" />
+          <Text mt="15px">Tailwind CSS</Text></VStack>
           
         </Box>
       </SimpleGrid>
